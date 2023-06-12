@@ -1,5 +1,4 @@
 from sklearn.linear_model import LinearRegression
-from sklearn.neural_network import MLPRegressor
 from sklearn.metrics import mean_squared_error
 
 def transferability_score(y_source, y_target):
