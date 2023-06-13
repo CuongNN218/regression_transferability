@@ -15,7 +15,7 @@ def transferability_score(y_source, y_target):
     mse = -1.0 * mean_squared_error(y_target, y_pred, squared=True)
     return mse
 
-def transferability_score_ridge(y_source, y_target, alpha):
+def transferability_score_ridge(y_source, y_target, alpha, solver='svd'):
     '''
     Args: 
       y_source (ndarray): extracted features of target samples, pseudo source labels or source labels (N x D1)
