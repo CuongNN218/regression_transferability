@@ -1,7 +1,9 @@
-import warnings
+'''
+Code from: https://github.com/thuml/LogME
+'''
 
+import warnings
 import numpy as np
-from torch import float32
 from numba import njit
 
 
